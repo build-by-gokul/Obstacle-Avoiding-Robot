@@ -1,0 +1,54 @@
+# =============================================================================
+# .gitignore — Obstacle-Avoiding Robot Car
+# =============================================================================
+
+# --- OS Generated Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- IDE and Editor Files ---
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Arduino Build Files ---
+*.elf
+*.hex
+*.bin
+*.eep
+*.lst
+*.map
+build/
+*.d
+*.o
+
+# --- Compiled Files ---
+*.com
+*.class
+*.dll
+*.exe
+*.out
+
+# --- Logs ---
+*.log
+
+# --- Temporary Files ---
+tmp/
+temp/
+
+# --- Archive Files ---
+*.zip
+*.tar.gz
+*.rar
+*.7z
